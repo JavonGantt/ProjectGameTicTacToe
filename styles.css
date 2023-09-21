@@ -1,0 +1,81 @@
+body{
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+
+.space{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameboard{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: center;
+}
+
+.sqr-1{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.sqr-2{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.sqr-3{
+    border-bottom: 2px solid black;
+}
+
+.sqr-4{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.sqr-5{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.sqr-6{
+    border-bottom: 2px solid black;
+}
+
+.sqr-7{
+    border-right: 2px solid black;
+}
+
+.sqr-8{
+    border-right: 2px solid black;
+}
+
+.align-fix{
+    text-align: center;
+}
+
+
+.button {
+     background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition: .3s;
+      }
+
+      .button:hover{
+        background-color: #4caf4fab;
+        color: rgba(255, 255, 255, 0.678);
+      }
